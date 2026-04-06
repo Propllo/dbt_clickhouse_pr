@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+- name: imdb
+  database: default
+  schema: default
+  tables:
+  - name: people
