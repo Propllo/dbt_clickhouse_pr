@@ -30,7 +30,7 @@ pip install -r libs.txt
 python load_data.py
 ```
 
-### 4. Подключится [скрипт диактевирует и удаляет контейнер после отработки]
+### 4. Подключиться [скрипт диактивирует и удаляет контейнер после отработки]
 ```cmd
 docker run --network=host --mount type=bind,source=.root/dbt/imdb,target=/usr/app /
 --mount type=bind,source=.root/dbt/imdb/profiles.yml,target=/root/.dbt/profiles.yml /
@@ -38,7 +38,7 @@ docker run --network=host --mount type=bind,source=.root/dbt/imdb,target=/usr/ap
 ```
 
 ### 5. Проверка результатов
-Все результаты храняться в default базе данных.
+Все результаты хранятся в default базе данных.
 
 ```cmd
 docker exec -it clickhouse-s1 clickhouse-client
