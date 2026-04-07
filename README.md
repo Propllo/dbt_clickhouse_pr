@@ -1,9 +1,9 @@
 # dbt-ClickHouse
 
 ## Структура проекта
-dbt/ dbt модели и конфиги<br/>
-scripts/ Python скрипт загрузки данных<br/>
-Dockerfile для ClickHouse<br/>
+dbt/ DBT модели и конфиги<br/>
+python_scripts/ Python скрипт загрузки данных<br/>
+dockerfile/ для ClickHouse и DBT<br/>
 
 ## Сноска
 .root - заменить на путь к папке проекта
